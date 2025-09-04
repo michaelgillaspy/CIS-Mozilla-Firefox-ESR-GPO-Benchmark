@@ -185,7 +185,7 @@
             "Impact": "Adobe Flash will not be available, and some websites might not function properly.",
             "Audit": "Navigate to the UI Path articulated in the Remediation section and confirm it is set asprescribed. This group policy setting is backed by the following registry location with a REG_DWORD value of 0. ||CODE||HKLM\\SOFTWARE\\Policies\\Mozilla\\Firefox\\FlashPlugin:Default||CODE||",
             "Remediation": "To establish the recommended configuration via GP, set the following UI path to Disabled:||CODE||Computer Configuration\\Policies\\Administrative Templates\\Mozilla\\Firefox\\Flash\\Activate Flash on websites||CODE|| Note: This Group Policy path does not exist by default. An additional Group Policytemplate (firefox.admx/adml) is required - it is available to download at this link.",
-            "References": "1. https://support.mozilla.org/en-US/kb/end-support-adobeflash#:~:text=Adobe%20and%20other%20browsers%20also,to%20re%2Denable %20Flash%20support."
+            "References": "1. https://support.mozilla.org/en-US/kb/end-support-adobe-flash#:~:text=Adobe%20and%20other%20browsers%20also,to%20re%2Denable %20Flash%20support."
         },
         {
             "Number": "1.1.15.1.1",
